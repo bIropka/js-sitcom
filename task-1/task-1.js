@@ -1,5 +1,5 @@
 function getChars( n ) {
-    return false;
+
 }
 
 console.log( 'без параметров', getChars() );
