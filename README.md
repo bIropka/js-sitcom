@@ -10,8 +10,8 @@ ___
 Реализуйте функцию `getChars(n)`, которая будет принимать целое положительное `n` и возвращать строку, состоящую из символов `x`.
 
 _Функция должна пройти такие тесты:_
-* `getChars('qu-qu'); // false`
-* `getChars(-5); // false`
+* `getChars('3'); // false`
+* `getChars(-3); // false`
 * `getChars(2.7); // false`
 * `getChars(); // x`
 * `getChars(1); // x`
