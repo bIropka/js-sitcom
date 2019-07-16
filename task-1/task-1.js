@@ -1,5 +1,10 @@
-function getChars( n ) {
-
+function getChars(n = 1) {
+	if (n > 0 && (n % 1) === 0 && typeof n == 'number') {
+		return "x".repeat(n);
+	}
+	else {
+		return false
+	}
 }
 
 console.log( 'без параметров', getChars() );
