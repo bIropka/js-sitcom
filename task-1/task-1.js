@@ -1,5 +1,16 @@
 function getChars( n ) {
-
+    let result = 'x';
+    if (n === 0 || n === undefined){
+        return result;
+    } else if( typeof(n) != 'number' || n < 0 || (n ^ 0) != n ){
+        return false
+    } else {
+        while (n > 1) {
+            result += 'x';
+            n -= 1;
+        }
+        return result;
+    }
 }
 
 console.log( 'без параметров', getChars() );
