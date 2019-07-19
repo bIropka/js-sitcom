@@ -7,6 +7,13 @@ function getChars(n = 1) {
 	}
 }
 
+// function getChars(n = 1) {
+// 	if (n > 0 && (n ^ 0) === n) {
+// 		return "x".repeat(n);
+// 	}
+// 	return false
+// }
+
 console.log( 'без параметров', getChars() );
 console.log( 'передана строка', getChars('3' ) );
 console.log( 'передана дробь', getChars(2.7 ) );
