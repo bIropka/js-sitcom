@@ -6,7 +6,7 @@ function getChars(n) {
             str+= 'x';
         }
     } else {
-        str = 'false';
+        return false;
     }
     return str;
 }
